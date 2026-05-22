@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>3d example using three.js and multiple windows</title>
+	<title>Futuristic Particle Network — Multi-Window</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A futuristic particle network scene that synchronizes and connects across multiple browser windows using Three.js">
 	<script type="text/javascript" src="three.r124.min.js"></script>
 	<style type="text/css">
-		
-		*
-		{
+		* {
 			margin: 0;
 			padding: 0;
+			overflow: hidden;
 		}
-
+		body {
+			background: #000;
+		}
+		canvas {
+			display: block;
+		}
 	</style>
 </head>
 <body>
-	
 	<script type="module" src="main.js"></script>
 </body>
 </html>
